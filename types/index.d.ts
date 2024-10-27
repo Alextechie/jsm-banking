@@ -15,3 +15,7 @@ interface TotalBalanceProps {
 interface DoughnutChartProps {
     accounts: []
 }
+
+interface userSideProps {
+    user: string
+}
