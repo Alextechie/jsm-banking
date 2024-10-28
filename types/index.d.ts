@@ -23,3 +23,17 @@ interface userSideProps {
 interface MobileSidebarProps {
     user: string
 }
+
+interface RightSidebarProps {
+    user: string,
+    transactions: [],
+    banks: string[],
+}
+
+
+interface BankCardDetailsProps {
+    $id: number,
+    account: number[],
+    username: string,
+    showBalance: Boolean
+}

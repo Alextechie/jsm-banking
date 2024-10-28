@@ -68,7 +68,7 @@ export function MobileSidebar({ user }: MobileSidebarProps) {
                                         </SheetClose>
                                     )
                                 })}
-
+                                
                                 USER
                             </nav>
                         </SheetClose>
