@@ -19,3 +19,7 @@ interface DoughnutChartProps {
 interface userSideProps {
     user: string
 }
+
+interface MobileSidebarProps {
+    user: string
+}
