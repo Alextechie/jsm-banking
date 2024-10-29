@@ -1,7 +1,9 @@
-export default function SignIn(){
+import AuthForm from "@/components/AuthForm";
+
+export default function SignIn() {
     return (
-        <div>
-            <p>Signin page</p>
-        </div>
+        <section className="flex-center size-full max-sm:px-6">
+            <AuthForm type="sign-in"/>
+        </section>
     )
 }

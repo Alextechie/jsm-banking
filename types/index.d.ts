@@ -37,3 +37,11 @@ interface BankCardDetailsProps {
     username: string,
     showBalance: Boolean
 }
+
+interface CustomInputProps {
+    form: string | typeof Control
+    label: string,
+    type: string,
+    placeholder: string,
+    input: string
+}
